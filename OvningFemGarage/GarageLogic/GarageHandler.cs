@@ -173,7 +173,7 @@ namespace OvningFemGarage.GarageLogic
             Console.WriteLine("Sök fordon baserat på:");
             Console.WriteLine("1. Färg");
             Console.WriteLine("2. Antal hjul");
-            //Console.WriteLine("3. Färg + Antal hjul");
+           Console.WriteLine("3. Färg + Antal hjul");
             Console.Write("Val: ");
             var choice = Console.ReadLine();
 
@@ -261,10 +261,10 @@ namespace OvningFemGarage.GarageLogic
         }
         public void PopulateWithTestVehicles()
         {
-            _garage.Add(new Car("ABC123", "Red", 4, 5, "Bensin", "Volvo"));
-            _garage.Add(new Boat("DEF456", "Blue", 0, 6, "Diesel", "M/S Queen Mary"));
-            _garage.Add(new Bus("XYZ789", "Yellow", 6, 20, "Diesel"));
-            _garage.Add(new Motorcycle("MOT001", "Black", 2, 2, "HVO", "Kawasaki"));
+            _garage.Add(new Car("ABC123", "Röd", 4, 5, "Bensin", "Volvo"));
+            _garage.Add(new Boat("DEF456", "Blå", 0, 6, "Diesel", "M/S Queen Mary"));
+            _garage.Add(new Bus("XYZ789", "Gul", 6, 20, "Diesel"));
+            _garage.Add(new Motorcycle("MOT001", "Rosa", 2, 2, "HVO", "Kawasaki"));
         }
     }
 }
